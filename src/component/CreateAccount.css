@@ -1,0 +1,78 @@
+/* Container.css */
+
+.createaccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  background-color: #ffffff;
+}
+
+.sign-up-box,
+.form {
+  flex: 1;
+  max-width: 400px;
+  padding: 40px;
+  background-color: #292828;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sign-up-title,
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sign-up-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+  text-align: left;
+}
+
+.sign-up-input,
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.sign-up-button,
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-button:hover,
+button:hover {
+  background-color: #0056b3;
+}
+
+.right-image {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 10px;
+}

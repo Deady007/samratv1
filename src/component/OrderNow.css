@@ -1,0 +1,64 @@
+/* OrderNow.css */
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* Tailwind gray-100 */
+  }
+  
+  .order-heading {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .order-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .order-buttons {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .order-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .takeaway {
+    background-color: #3b82f6; /* Tailwind blue-500 */
+  }
+  
+  .takeaway:hover {
+    background-color: #2563eb; /* Tailwind blue-600 */
+  }
+  
+  .dine-in {
+    background-color: #10b981; /* Tailwind green-500 */
+  }
+  
+  .dine-in:hover {
+    background-color: #059669; /* Tailwind green-600 */
+  }
+  
+  .delivery {
+    background-color: #ef4444; /* Tailwind red-500 */
+  }
+  
+  .delivery:hover {
+    background-color: #dc2626; /* Tailwind red-600 */
+  }
+  

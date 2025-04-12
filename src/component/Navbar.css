@@ -1,0 +1,101 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 5px;
+}
+
+/* Logo Styling */
+.logo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+/* Brand Text */
+.left {
+  color: crimson;
+  margin-right: 35px;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+  padding-right: 800px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: 500;
+}
+
+/* Sign In Button */
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: crimson;
+  border: 1px solid crimson;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar button:hover {
+  background-color: crimson;
+  color: white;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  margin-left: 50px;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: crimson;
+}
+
+/* Cart Link Styling */
+.cart-wrapper {
+  position: relative;
+}
+
+.cart-link {
+  position: relative;
+  color: crimson;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cart-text {
+  font-size: 16px;
+}
+
+/* Cart Count Badge */
+.count {
+  background-color: crimson;
+  color: white;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  font-size: 13px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.account-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: black;
+}
+
+.account-icon {
+  width: 90px;
+  height: auto;
+}

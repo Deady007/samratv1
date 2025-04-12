@@ -1,0 +1,133 @@
+/* AdminDashboard.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fa;
+}
+
+.admin-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.admin-heading {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2d2d2d;
+}
+
+.admin-section {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-section-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.admin-input,
+.admin-select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.admin-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+.admin-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-background-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.admin-order,
+.admin-menu-item {
+  background-color: #f1f3f6;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex; /* Align items in a row */
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Space out the elements */
+}
+
+.admin-order > p {
+  margin-bottom: 5px; /* Adjust spacing between order details */
+}
+
+.admin-order-id {
+  font-weight: bold;
+}
+
+.admin-order-status {
+  font-style: italic;
+  /* Color will be set dynamically via inline styles */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.admin-delete-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+}
+
+.admin-delete-button:hover {
+  background-color: #b52a38;
+}
+
+.admin-select {
+  width: auto; /* Adjust width to content */
+  margin-left: 15px; /* Add some spacing between status and select */
+}

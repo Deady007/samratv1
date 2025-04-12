@@ -1,0 +1,129 @@
+.payment-gateway-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.delivery-info-left,
+.cart-summary-right {
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+input:focus,
+select:focus {
+  border-color: #ff6b6b;
+  outline: none;
+}
+
+.multi-fields {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.multi-fields input {
+  flex: 1;
+}
+
+.cart-total {
+  margin-bottom: 2rem;
+}
+
+.cart-total h2,
+.payment-options h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.payment-method {
+  margin-bottom: 1rem;
+}
+
+.payment-method select {
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+.card-details,
+.upi-details {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.proceed-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.proceed-button:hover {
+  background-color: #e05555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .payment-gateway-page {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .delivery-info-left,
+  .cart-summary-right {
+    padding: 1.5rem;
+  }
+}

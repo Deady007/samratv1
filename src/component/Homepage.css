@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.homepage {
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  overflow: hidden;
+  animation: slideDown 1.5s ease-in-out;
+}
+
+.hero .back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+.hero h2 {
+  color: rgb(242, 239, 239);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.hero button {
+  background: #d62828;
+  width: auto;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  animation: popUp 1.5s ease-in-out;
+  margin-top: 10px;
+}
+
+.hero button:hover {
+  background: #9d2020;
+  transform: scale(1.1);
+}
+
+/* Menu Section */
+.menu-container {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.menu-heading {
+  font-size: 2rem;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.menu-item-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.menu-item-price {
+  font-size: 1.2rem;
+  color: #388e3c;
+}
+
+.add-to-cart-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #b71c1c;
+}
+
+.more-menu button {
+  background: #d62828;
+  width: auto;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  animation: popUp 1.5s ease-in-out;
+  margin-top: 10px;
+}
+.more-menu button:hover {
+  background: #9d2020;
+  transform: scale(1.1);
+}
