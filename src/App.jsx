@@ -14,7 +14,7 @@ import SeaFoodItems from './component/SeaFoodItems';
 import Egg from './component/Egg';
 import Offers from './component/Offers';
 import Footer from './component/Footer';
-import OrderNow from './component/Ordernow';
+import OrderNow from './component/OrderNow'; // Corrected the case
 import CartPage from './component/CartPage';
 import AllMenu from './component/AllMenu';
 import UserLoggedIn from './component/UserLoggedIn';
