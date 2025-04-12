@@ -19,6 +19,7 @@ import CartPage from './component/CartPage';
 import AllMenu from './component/AllMenu';
 import UserLoggedIn from './component/UserLoggedIn';
 import AdminDashboard from './firebase/AdminDashboard';
+import spicychicken from "./images/spicy_chicken_combo.jpg";
 
 const auth = getAuth(app); // Initialize Firebase Auth
 
