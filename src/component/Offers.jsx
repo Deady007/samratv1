@@ -1,8 +1,8 @@
 import React from "react";
 import "./Offers.css";
-import spicychicken from "./images/Spicy_chicken_combo.jpg"
-import specialgrill from "./images/grilled_chicken_special.jpg"
-import royalbiryani from "./images/chicken_biryani_special.jpg"
+import spicychicken from "./images/Spicy_chicken_combo.jpg";
+import specialgrill from "./images/grilled_chicken_special.jpg";
+import royalbiryani from "./images/chicken_biryani_special.jpg";
 
 const offers = [
   {
